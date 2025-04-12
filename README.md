@@ -4,10 +4,9 @@
 
 - [Brief](#Brief)
 - [Design](#Design)
-- [Design](#Design)
   - [Mobile](#Mobile)
   - [Desktop](#Desktop)
-  - [Active States](#Active States)
+  - [Active States](#Active-States)
 - [Live Site Url](#Live-Site-Url)
 
 ## Brief
