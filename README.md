@@ -11,6 +11,8 @@ Your challenge is to build out this FAQ accordion and get it looking as close to
 
 ## Design
 
+<div align="center">
+  
 ### Mobile
 
 ![](./assets/design/mobile-design.jpg)
@@ -22,3 +24,5 @@ Your challenge is to build out this FAQ accordion and get it looking as close to
 ### Active States
 
 ![](./assets/design/desktop-design.jpg)
+
+</div>
