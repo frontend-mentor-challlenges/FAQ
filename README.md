@@ -23,6 +23,6 @@ Your challenge is to build out this FAQ accordion and get it looking as close to
 
 ### Active States
 
-![](./assets/design/desktop-design.jpg)
+![](./assets/design/active-states.jpg)
 
 </div>
