@@ -121,6 +121,10 @@ section:last-child {
 }
 
 .click {
+    text-align: left;
+    background-color: var(--bgWhite);   
+    border: none;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -137,14 +141,12 @@ section:last-child {
     position: relative;
     height: 0;
     overflow: hidden;
-    /* overflow-y: auto; */
     transition: all 500ms ease-in-out;
 }
 
 .info.active {
     padding-top: 1rem;
     height: auto;
-
 }
 
 
