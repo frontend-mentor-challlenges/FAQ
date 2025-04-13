@@ -1,5 +1,6 @@
 :root {
     /* Colors */
+    --black: rgba(0, 0, 0, 0.06);
     --Purple: rgb(164, 16, 177);
     --DarkPurple: rgb(58, 14, 62);
     --LightPurple: rgb(156, 144, 158);
@@ -75,7 +76,6 @@ h1, .p1 {
 .img-container > picture > img {
     width: 100%;
     height: 12rem;
-    /* height: 8rem; */
     object-fit: cover;
     object-position: bottom;
 }
@@ -95,6 +95,7 @@ main {
     border-radius: 0.6rem;
     position: relative;
     top: -8rem;
+    box-shadow: 0px 1rem 1rem 0.5rem var(--black);
 }
 
 header {
@@ -103,7 +104,6 @@ header {
     justify-content: start;
     align-items: center;
     gap: 1rem;
-    /* padding-bottom: 1.5rem; */
 }
 
 header > img {
@@ -147,6 +147,52 @@ section:last-child {
 .info.active {
     padding-top: 1rem;
     height: auto;
+}
+
+@media (min-width: 500px) {
+    :root {
+        /* Fonts Size */
+        --h1: clamp(18px, 23px + 1.5vw, 54px);
+        --p1: clamp(14px, 9px + 0.5vw, 42px);
+        --p2: clamp(12px, 7px + 0.5vw, 36px);
+    }
+
+    .p1 {
+        max-width: 100%;
+    }
+    
+    .p2 {
+        max-width: 100%;
+    }
+
+    .img-container > picture > img {
+        height: 7rem;
+    }
+
+    .container {
+        width: 18rem;
+        padding: 1rem;
+        margin: 1rem;
+        top: -4.8rem;
+    }
+
+    header > img {
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    section {
+        padding: 0.7rem 0;
+    }
+
+    section:last-child {
+        padding-bottom: 0rem;
+    }
+
+    .info.active {
+        padding-top: 0.5rem;
+    }
+
 }
 
 

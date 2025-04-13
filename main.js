@@ -9,6 +9,5 @@ Array.from(click).forEach((item, index) => {
       : "./assets/images/icon-plus.svg";
 
     info[index].classList.toggle("active");
-    console.log("Index in HTMLCollection:", index);
   });
 });
